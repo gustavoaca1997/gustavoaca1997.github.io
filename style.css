@@ -1,0 +1,48 @@
+body {
+	background-color: #C1FFC7;
+}
+
+/*
+	NAVBAR
+*/
+
+#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	clear: both;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#navbar li {
+	float: left;
+}
+
+#navbar a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 15px;
+}
+
+#navbar a:hover {
+	background-color: #999E9A;
+}
+
+/*
+	HOME
+*/
+
+#home {
+	background-color: #EEFFF8;
+	height: 97vh;
+	text-align: center;
+}
+
+#home h1 {
+	padding-top: 47vh;
+}
