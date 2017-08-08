@@ -10,7 +10,7 @@ li {
 body {
   background-color: #EEF8F4;
   background-image: url("img/Fondo-Portada.png");
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
   color: #656870;
 }
@@ -38,6 +38,8 @@ body {
 }
 
 #home {
+  background-image: url("img/Fondo-Portada.png");
+  background-size: cover;
   font-family: 'Oswald', sans-serif;
   height: 100vh;
   text-align: center;
