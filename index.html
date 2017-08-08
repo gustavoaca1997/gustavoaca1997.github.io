@@ -16,6 +16,7 @@
 </head>
 
 <body>
+	<script src="script.js"></script>
 	<ul id="navbar">
 		<li><a href="#home">Home</a></li>
 		<li><a href="#about">About</a></li>
@@ -27,48 +28,78 @@
 		<h1 id="name">Gustavo Alejandro Castellanos</h1>
 		<h3 id="subtitle-home">Welcome to my portfolio</h3>
 	</div>
-	<div id="about" class="section container-fluid">
+	<div id="about" class="section">
 		<h2>About me</h2>
-		<div class="row">
-			<div class=" col-xs-12 col-sm-4">
-				<div class="wrap">
-					<img src="img/profile-pic.jpg" class="img-responsive">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<div class="wrapper">
+						<img src="img/profile-pic.jpg" class="img-responsive">
+					</div>
 				</div>
-			</div>
-			<div  class="col-xs-12 col-sm-8">
-				<div id="bio">
+				<div  class="col-xs-12 col-sm-8">
 					<p>I am a Computational Engineering student in <a href="http://www.usb.ve/" title="USB">Universidad Simón Bolívar</a>, Venezuela. I am currently starting the third year of my career. My favorites (and some of which I have had a better perfomance) subjects that I studied are discrete math and algorithms. I have some experience in competetive programming and I am learning to improve my skills in web development and GUI design.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<ul id="skills" class="section">
+	<div id="skills" class="section">
 		<h2>Skills</h2>
-		<li>
-			<h5>Python</h5>
-		</li>
-		<li>
-			<h5>C</h5>
-		</li>
-		<li>
-			<h5>C++</h5>
-		</li>
-		<li>
-			<h5>Bash</h5>
-		</li>
-		<li>
-			<h5>HTML</h5>
-		</li>
-		<li>
-			<h5>CSS<h5>
-		</li>
-		<li>
-			<h5>Qt</h5>
-		</li>
-		<li>
-			<h5>Linux</h5>
-		</li>
-	</ul>
+		<ul>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-4">
+						<li title="Python">
+							<h5>Python</h5>
+							<img src="img/python-logo.png">
+						</li>
+					</div>
+					<div class="col-xs-4">
+						<li title="C">
+							<h5>C</h5>
+							<img src="img/c_logo.png">
+						</li>
+					</div>
+					<div class="col-xs-4">
+						<li title="C++">
+							<h5>C++</h5>
+							<img src="img/cpp_logo.png">
+						</li>
+					</div>
+					<div class="col-xs-4">
+						<li title="HTML">
+							<h5>HTML</h5>
+							<img src="img/html-logo.png">
+						</li>
+					</div>
+					<div class="col-xs-4">
+						<li title="CSS">
+							<h5>CSS</h5>
+							<img src="img/css-logo.png">
+						</li>
+					</div>
+					<div class="col-xs-4">
+						<li title="Bootstrap">
+							<h5>Bootstrap</h5>
+							<img src="img/bootstrap-logo.png">
+						</li>
+					</div>
+					<div class="col-xs-4 col-xs-offset-2">
+						<li title="Qt">
+							<h5>Qt</h5>
+							<img src="img/qt-logo.svg">
+						</li>
+					</div>
+					<div class="col-xs-4">
+						<li title="Linux">
+							<h5>Linux</h5>
+							<img src="img/tux.png">
+						</li>
+					</div>
+				</div>
+			</div>
+		</ul>
+	</div>
 	<ul id="portfolio" class="section">
 		<h2>Portfolio</h2>
 		<li>

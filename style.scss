@@ -49,8 +49,9 @@ body {
 }
 
 .section {
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	border-radius: 40px;
+	color: #635F5F;
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-left: 10%;
@@ -62,27 +63,52 @@ body {
 
 #about {
 	background-color: #F3C8B6;
+	border: 4px solid #F3B599;
 	text-align: justify;
-	.wrap {
-		display: block;
-		margin: 0 auto;
-		margin-top: 10px;
-		margin-bottom: 20px;
-		max-width: 250px;
+	.wrapper {
+			margin: 0 auto;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			max-width: 250px;
 		img {
 			border: 4px solid white;
 			border-radius: 500px;
 		}
 	}
+	p {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
 
 #skills {
 	background-color: #ECD5AF;
+	border: 4px solid #ECCA92;
 	margin-bottom: 0;
+	ul {
+		margin-bottom: 10px;
+		li {
+			max-width: 100px;
+			min-width: 30px;
+			margin: 0 auto;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			h5 {
+				display: none;
+			}
+		}
+	}
 }
 
 #portfolio {
 	background-color: #E4E39B;
+	border: 4px solid #E4E374;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	#navbar {
+		font-size: 100%;
+	}
 }
