@@ -10,6 +10,7 @@ li {
 body {
   background-color: #EEF8F4;
   background-image: url("img/Fondo-Portada.png");
+  background-attachment: fixed;
   color: #656870;
 }
 
