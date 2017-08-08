@@ -5,4 +5,5 @@ $(document).ready(function() {
 		"data-placement" : "top"
 	});
 	$('[data-toggle="tooltip"]').tooltip();
+	$("#portfolio a").attr("target", "_blank");
 });

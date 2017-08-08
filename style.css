@@ -8,7 +8,9 @@ li {
 }
 
 body {
-  background-color: #C1FFC7;
+  background-color: #EEF8F4;
+  background-image: url("img/Fondo-Portada.png");
+  color: #656870;
 }
 
 #navbar {
@@ -22,11 +24,9 @@ body {
   top: 0;
   font-size: 90%;
 }
-#navbar li {
+#navbar a {
   float: left;
   padding: 20px 3%;
-}
-#navbar a {
   display: block;
   color: white;
   text-align: center;
@@ -36,31 +36,30 @@ body {
 }
 
 #home {
-  background-color: #EEFFF8;
+  font-family: 'Oswald', sans-serif;
   height: 100vh;
   text-align: center;
 }
 #home h1 {
+  font-size: 2.5em;
   margin: 0;
   padding-top: 50vh;
 }
 
 .section {
-  /*border: 1px solid white;*/
-  border-radius: 40px;
-  color: #635F5F;
-  margin-left: 5%;
-  margin-right: 5%;
+  border-radius: 10px;
+  margin: 0 0 0 0;
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 20px;
 }
 .section h2 {
+  font-family: 'Oswald', sans-serif;
   text-align: center;
 }
 
 #about {
-  background-color: #F3C8B6;
-  border: 4px solid #F3B599;
+  background-color: rgba(238, 248, 244, 0.75);
   text-align: justify;
 }
 #about .wrapper {
@@ -70,21 +69,18 @@ body {
   max-width: 250px;
 }
 #about .wrapper img {
-  border: 4px solid white;
   border-radius: 500px;
 }
 #about p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 #skills {
-  background-color: #ECD5AF;
-  border: 4px solid #ECCA92;
-  margin-bottom: 0;
-}
-#skills ul {
-  margin-bottom: 10px;
+  background-color: rgba(192, 192, 212, 0.25);
+  padding-bottom: 5px;
 }
 #skills ul li {
   max-width: 100px;
@@ -98,15 +94,17 @@ body {
 }
 
 #portfolio {
-  background-color: #E4E39B;
-  border: 4px solid #E4E374;
-  margin-top: 0;
-  margin-bottom: 0;
+  background-color: rgba(250, 255, 255, 0.5);
 }
 
 @media only screen and (min-width: 768px) {
   #navbar {
     font-size: 100%;
+  }
+}
+@media only screen and (min-width: 580px) {
+  #home h1 {
+    font-size: 45px;
   }
 }
 

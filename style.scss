@@ -1,5 +1,8 @@
-$bg-color: #C1FFC7;
-
+$bg-color: #EEF8F4;
+$font-color: #656870;
+$color1: rgba(238, 248, 244, 0.75);
+$color2: rgba(192, 192, 212, 0.25);
+$color3: rgba(250, 255, 255, 0.5);
 *  {
 	margin: 0;
 	padding: 0;	
@@ -11,6 +14,8 @@ li {
 
 body {
 	background-color: $bg-color;
+	background-image: url("img/Fondo-Portada.png");
+	color: $font-color;
 }
 #navbar {
 	z-index: 10;
@@ -22,12 +27,9 @@ body {
 	width: 100%;
 	top: 0;
 	font-size: 90%;
-
-	li {
+	a {
 		float: left;
 		padding: 20px 3%;
-	}
-	a {
 		display: block;
 		color: white;
 		text-align: center;
@@ -38,32 +40,30 @@ body {
 }
 
 #home {
-	background-color: #EEFFF8;
+	font-family: 'Oswald', sans-serif;
 	height: 100vh;
 	text-align: center;
-
 	h1 {
+		font-size: 2.5em;
 		margin: 0;
 		padding-top: 50vh;
 	}
 }
 
 .section {
-	/*border: 1px solid white;*/
-	border-radius: 40px;
-	color: #635F5F;
-	margin-left: 5%;
-	margin-right: 5%;
+	border-radius: 10px;
+	margin: 0 0 0 0;
 	padding-left: 10%;
 	padding-right: 10%;
+	padding-top: 20px;
 	h2 {
+		font-family: 'Oswald', sans-serif;
 		text-align: center;
 	}
 }
 
 #about {
-	background-color: #F3C8B6;
-	border: 4px solid #F3B599;
+	background-color: $color1;
 	text-align: justify;
 	.wrapper {
 			margin: 0 auto;
@@ -71,22 +71,21 @@ body {
 			margin-bottom: 20px;
 			max-width: 250px;
 		img {
-			border: 4px solid white;
 			border-radius: 500px;
 		}
 	}
 	p {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 20px;
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
 }
 
 #skills {
-	background-color: #ECD5AF;
-	border: 4px solid #ECCA92;
-	margin-bottom: 0;
+	background-color: $color2;
+	padding-bottom: 5px;
 	ul {
-		margin-bottom: 10px;
 		li {
 			max-width: 100px;
 			min-width: 30px;
@@ -101,14 +100,19 @@ body {
 }
 
 #portfolio {
-	background-color: #E4E39B;
-	border: 4px solid #E4E374;
-	margin-top: 0;
-	margin-bottom: 0;
+	background-color: $color3;
 }
 
 @media only screen and (min-width: 768px) {
 	#navbar {
 		font-size: 100%;
+	}
+}
+
+@media only screen and (min-width: 580px) {
+	#home {
+		h1 {
+			font-size: 45px;
+		}
 	}
 }
