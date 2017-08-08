@@ -1,0 +1,88 @@
+$bg-color: #C1FFC7;
+
+*  {
+	margin: 0;
+	padding: 0;	
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	background-color: $bg-color;
+}
+#navbar {
+	z-index: 10;
+	list-style-type: none;
+	background-color: #000000;
+	clear: both;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	font-size: 90%;
+
+	li {
+		float: left;
+	}
+	a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 20px 15px;
+	}
+	a:hover {
+		background-color: #999E9A;
+	}
+}
+
+#home {
+	background-color: #EEFFF8;
+	height: 100vh;
+	text-align: center;
+
+	h1 {
+		margin: 0;
+		padding-top: 50vh;
+	}
+}
+
+.section {
+	border: 1px solid white;
+	border-radius: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	h2 {
+		text-align: center;
+	}
+}
+
+#about {
+	background-color: #F3C8B6;
+	text-align: justify;
+	.wrap {
+		display: block;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		max-width: 250px;
+		img {
+			border: 4px solid white;
+			border-radius: 500px;
+		}
+	}
+}
+
+#skills {
+	background-color: #ECD5AF;
+	margin-bottom: 0;
+}
+
+#portfolio {
+	background-color: #E4E39B;
+	margin-top: 0;
+	margin-bottom: 0;
+}
