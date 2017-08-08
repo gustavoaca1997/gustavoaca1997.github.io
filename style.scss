@@ -15,6 +15,7 @@ li {
 body {
 	background-color: $bg-color;
 	background-image: url("img/Fondo-Portada.png");
+	background-size: cover;
 	background-attachment: fixed;
 	color: $font-color;
 }
