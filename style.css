@@ -99,6 +99,23 @@ body {
 
 #portfolio {
   background-color: rgba(250, 255, 255, 0.5);
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+#portfolio li {
+  background-color: rgba(192, 192, 212, 0.25);
+}
+#portfolio li h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 130%;
+}
+#portfolio li p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+}
+#portfolio li img {
+  display: none;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 768px) {
