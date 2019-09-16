@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: gustavoaca1997.github.io
+Token: 8195f0120d7eb322e64f1214ec3d1c043c81fe21d9054408bee7f258cff1a8ad
